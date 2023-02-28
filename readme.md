@@ -7,4 +7,4 @@
     mockService = jasmine.createSpyObj('Service', ['method']);
     mockService.method.and.returnValue([ {insert desired mock return value} ]);
   })
-})
+})`
